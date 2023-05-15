@@ -4,7 +4,6 @@ Step 2: git config --global user.email "E-mail"
 Step 3: git config --list
 
 // Commit code
-Step 2: git add .
-Step 3: git commit -m "An_FirstUpdate"
-Step 4: git remote add origin https://github.com/aceannguyen/Watchs.git
-Step 5: git push origin master
+Step 1: git add .
+Step 2: git commit -m "An_FirstUpdate"
+Step 3: git push origin master
