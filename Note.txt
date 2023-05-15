@@ -1,0 +1,17 @@
+// Config user.name and user.email for git
+Step 1: git config --global user.name "An Nguyen Van"
+Step 2: git config --global user.email "E-mail"
+Step 3: git config --list
+
+// setup and commit source code to GitHub
+Step 1: git init
+Step 2: git add .
+Step 3: git commit -m "An_FirstUpdate"
+Step 4: git remote add origin https://github.com/aceannguyen/Watchs.git
+Step 5: git push -u origin main
+
+// Từ lần sau trở đi
+Step 2: git add .
+Step 3: git commit -m "An_FirstUpdate"
+Step 4: git remote add origin https://github.com/aceannguyen/Watchs.git
+Step 5: git push -u origin main
