@@ -1,13 +1,32 @@
-// Config user.name and user.email for git
-Step 1: git config --global user.name "An Nguyen Van"
+// Install git
+Step 1: Open browser Google Chrome, Microsoft Edge, ...
+Step 2: Search https://git-scm.com/downloads
+Step 3: Download and Install Git
+Step 4: Open cmd and use command git --version
+
+// Config user.name and user.email for git(Click button right and select git GUI Here)
+Step 1: git config --global user.name "Full Name"
 Step 2: git config --global user.email "E-mail"
 Step 3: git config --list
 
-// clone lại suorce code về máy
+// Add extension git on visual studio code
+Step 1: Open visual studio code
+Step 2: Select Extension
+Step 3: Search git extension
+Step 4: install git extension
+
+// Lần đầu đẩy source code(Open terminal on Visual studio code) - Chỉ khi đẩy source code mới hoàn toàn
+Step 1: git init
+Step 2: git add .
+Step 3: git commit -m "push_SourceCode"
+Step 4: git remote add origin https://githun.com/aceannguyen/Watchs.git
+Step 5: git push origin master
+
+// clone lại suorce code về máy(Open Terminal on Visual Studio Code)
 Step 1: git clone https://github.com/aceannguyen/Watchs.git
 Step 2: Mở lên và code như bình thường, xong thì commit code lại
 
-// Commit code
+// Commit code(Open Terminal on Visual studio code)
 Step 1: git add .
 Step 2: git commit -m "An_FirstUpdate"
 Step 3: git push origin master
