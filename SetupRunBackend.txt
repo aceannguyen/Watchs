@@ -1,0 +1,6 @@
+1. cài MongoDB
+2. clone git
+3. Cài NodeJs (latest)
+4. cd Backend/watch-api
+5. Open Terminal
+6. Chạy câu lệnh: npm run start:dev (watch-api)
